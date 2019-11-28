@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body,html {
+    font-family: Arial;
+    height: 100%;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height:100%;
+    background-image: url("http://gurman.bg/wp-content/uploads/2018/06/gurman-slider22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+	text-align: center;
+	color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    flex: 1;
+    justify-content: center;
+}
+
+.content > *{
+    padding:20px;
+}
+
+ .footer {
+	text-align: center;
+    background-color: #0f1217;
+    margin-top: auto;
+}
+
+
+
