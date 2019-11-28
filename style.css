@@ -18,6 +18,15 @@ body,html {
     background-size: cover;
 }
 
+.topnav a {
+    float: top;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
 .header {
 	text-align: center;
 	color: white;
@@ -27,13 +36,22 @@ body,html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 150px;
     flex: 1;
-    justify-content: center;
+    position: relative;
+    margin : 180px auto 0 ;
 }
 
-.content > *{
-    padding:20px;
+.info {
+    width: 100%;
+    max-width: 800px;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+.info2{
+    width: 100%;
+    max-width: 800px;
+    justify-content: flex-end;
+    font-size: 18px;
 }
 
  .footer {
@@ -41,6 +59,3 @@ body,html {
     background-color: #0f1217;
     margin-top: auto;
 }
-
-
-
